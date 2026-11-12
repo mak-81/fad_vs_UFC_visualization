@@ -98,7 +98,7 @@ ufc_limit = min(
 is_safe_ufc = lambda_val <= ufc_limit
 
 # --- Create Figure ---
-fig = plt.figure(figsize=(10, 7))
+fig = plt.figure(figsize=(8, 5))
 fig.suptitle(f"Through-wall crack in pipe (t={t} mm, R={R} mm)", fontsize=14)
 
 ax = plt.subplot2grid((3, 4), (1, 0), rowspan=2, colspan=2)
